@@ -1,11 +1,11 @@
 # DuckBot
 
 # Launch
-install node.js to your machine
-npm install discord.js
-node app.js
+install node.js to your machine<br />
+npm install discord.js<br />
+node app.js<br />
 
 # Tasks:
-> level system w/messeges,
-> basic commands,
-> other stuff,
+> level system w/messeges<br />
+> basic commands<br />
+> other stuff<br />
