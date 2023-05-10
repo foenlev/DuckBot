@@ -21,7 +21,7 @@ module.exports = {
     if (target == null) {
           replyEmbed
             .setColor('Green')
-            .setDescription('')
+            .setDescription('info goes here')
             .setTitle('your Info');
           interaction.editReply({ content: "", embeds: [replyEmbed] });
     } else {
@@ -32,7 +32,7 @@ module.exports = {
           clearInterval(interval);
           replyEmbed
             .setColor('Green')
-            .setDescription('')
+            .setDescription('info about duck goes here')
             .setTitle(target.tag +'\'s Info');
           interaction.editReply({ content: "", embeds: [replyEmbed] });
         } else {
