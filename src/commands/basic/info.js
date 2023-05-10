@@ -1,14 +1,14 @@
 const { EmbedBuilder, SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
-  cooldown: 10,
+	cooldown: 10,
 	data: new SlashCommandBuilder()
-		.setName('info')
-		.setDescription('get info about you or another duck')
-    .addUserOption(option =>
-  		option
-        .setName('user')
-  			.setDescription('who do you want spy on?')
+	.setName('info')
+	.setDescription('get info about you or another duck')
+	.addUserOption(option =>
+		option
+		.setName('user')
+		.setDescription('who do you want spy on?')
     ),
 	async execute(interaction) {
     const target = interaction.options.getUser('user') || null;
