@@ -2,8 +2,7 @@
 
 # Launch
 install node.js to your machine<br />
-npm install discord.js<br />
-node app.js<br />
+node src/app.js<br />
 
 # Tasks:
 > level system w/messeges<br />
