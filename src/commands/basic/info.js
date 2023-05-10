@@ -18,7 +18,7 @@ module.exports = {
 
     await interaction.deferReply({ephemeral: true});
 
-    if (target != null) {
+    if (target == null) {
           replyEmbed
             .setColor('Green')
             .setDescription('')
