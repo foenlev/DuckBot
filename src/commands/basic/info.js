@@ -22,7 +22,7 @@ module.exports = {
           replyEmbed
             .setColor('Green')
             .setDescription('info goes here')
-            .setTitle('your Info');
+            .setTitle('Your Info');
           interaction.editReply({ content: "", embeds: [replyEmbed] });
     } else {
       let counter = 0;
