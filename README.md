@@ -3,7 +3,8 @@
 
 
 # Launch
-install node.js to your machine<br />
+install node to your machine<br />
+install discord.js to your machine ||npm i discord.js||<br />
 node src/app.js<br />
 
 # Tasks:
