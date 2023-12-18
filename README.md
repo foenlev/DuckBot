@@ -3,9 +3,9 @@
 
 
 # Launch
-install node to your machine<br />
-install discord.js to your machine ```npm i discord.js```<br />
-node src/app.js<br />
+download the latest version of node to your machine: [here](https://nodejs.org/en/download)<br />
+install discord.js to your folder using powershell: ```npm i discord.js```<br />
+use the ```windowsDebug.bat``` to run the bot<br />
 
 # Tasks:
 > level system w/messeges<br />
