@@ -3,6 +3,7 @@
 
 
 # Launch on windows
+Make a discord bot and add the token and client id to the config.json
 Download the latest version of node to your machine: [here](https://nodejs.org/en/download)<br />
 Install discord.js to your folder using powershell: ```npm i discord.js```<br />
 Use the ```windowsDebug.bat``` to run the bot<br />
